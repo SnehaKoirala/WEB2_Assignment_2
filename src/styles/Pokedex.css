@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+  }
+
+  .pokedex-container {
+    padding: 1rem; 
+    background-color: aliceblue;
+    max-width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+  
+  .pokemon-card {
+    background-color: #7AC74C; 
+    border-radius: 16px;
+    height: 150px;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;       
+    gap: 1rem;                 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .pokemon-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pokemon-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    text-transform: capitalize;
+  }
+
+  .pokemon-number {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black; 
+  }
+  
+  .pagination-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .pagination-buttons button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .pokemon-id {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+  }
+  .pokemon-image {
+    height: 100px; 
+    width: 100px; 
+    margin: 0 auto;
+  }
+
+  .section-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    margin: 1rem 0 0.5rem;
+    font-family: cursive;
+  }
+  
+  
+  /* Button styles */
+
+
+  .pagination-buttons {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+    padding: 0 1rem;
+  }
+  
+  .pagination-buttons button {
+    width: 100px;                 
+    padding: 8px 0;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pagination-buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination-buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  

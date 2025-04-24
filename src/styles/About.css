@@ -1,0 +1,43 @@
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .about-card {
+    background-color: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+  
+  .about-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #222;
+    border-bottom: 2px solid plum; 
+  display: inline-block;
+  padding-bottom: 0.4rem;
+  }
+  
+  .about-list {
+    list-style-type: disc; 
+    line-height: 1.6;
+    color: #444;
+    padding-left: 2rem; 
+    margin-bottom: 0;
+  }
+  
+  .about-list li {
+    margin-bottom: 1rem;
+    display: list-item; 
+    text-align: justify; 
+    text-justify: inter-word; 
+    word-wrap: break-word; 
+}
